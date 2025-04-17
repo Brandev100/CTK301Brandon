@@ -1,0 +1,180 @@
+body {
+    font-family: Georgia, sans-serif;
+    background-color: gray;
+}
+
+#wrapper {
+    margin: 1em auto;
+    width: 960px;
+    border: 5px solid darkblue;
+    background-color: #ffffff;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    column-gap: 12px;
+}
+
+header {
+    grid-column: span 12;
+    background-image: linear-gradient(#74ade3, darkblue);
+
+}
+
+h1 { 
+    font-family: Georgia, sans-serif;
+    margin-left: 24px;
+    font-weight: normal;
+    font-style: italic; 
+}
+h1 a {
+    font-family: Arial;
+    text-decoration: none;
+    color: #66ccff;
+}
+h1 a:hover {
+    color: lightblue;
+}
+
+nav {
+    grid-column: span 12;
+    font-family: Arial, Helvetica;
+    font-weight: bold;
+}
+nav ul {
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+nav li {
+    display: inline-block;
+}
+nav li a {
+    display: block;
+    width: 225px;
+    height: 24px;
+    padding-top: 12px;
+    padding-bottom: 6px;
+    padding-left: 12px;
+    text-decoration: none;
+    color: #66ccff;
+    border-right: solid 4px darkblue;
+    border-bottom: solid 4px darkblue;
+    border-top: solid 4px darkblue;
+    background-image: linear-gradient(#07a0d7, darkblue);
+}
+nav li a:hover {
+    color: white
+}
+
+h2 {
+    font-family: Helvetica;
+    color: blue;
+    border-bottom: solid 3px blue;
+    font-weight: normal;
+    padding-bottom: 6px;
+}
+
+main a {
+    text-decoration: none;
+    font-weight: bold;
+    color: red;
+}
+main a:hover{
+    color: darkred;
+}
+
+
+.gallery-container {
+    grid-column: auto;
+    height: 50px;
+    grid-template-columns: repeat(12, 1fr); /* Creates a 12-column grid */
+    gap: 10px; /* Adds spacing between items */
+    padding: 20px;
+    justify-content: center; /* Centers gallery items */
+}
+
+
+
+footer {
+    grid-column: span 12;
+    background-color: red;
+    border-top: solid 5px darkblue;
+    padding: 12px;
+}
+
+#float_left {
+    float: left;
+    border: solid 2px blue;
+    margin-right: 12px;
+}
+main {
+    grid-column: span 8;
+}
+
+aside {
+    grid-column: span 4;
+    background-color: #add8e6;
+    font-weight: bold;
+    padding-left: 12px;
+    padding-right: 12px;
+    text-align: justify;
+}
+
+#float_right{
+    float: left;
+}
+
+img {
+    float: right; 
+    margin-right: 0px; /* puts space between the image and the text to the right of the image*/
+}
+
+#Carmy {
+    grid-column: span 4;
+    margin-left: 12px;
+
+}
+#Carmy a {
+    color: red;
+    text-decoration: none;
+    font-weight: bold;
+}
+#Carmy a:hover {
+    color: darkred
+}
+
+#Sydney {
+    grid-column: span 4;
+    margin-right: 6px;
+    margin-left: 6px;
+}
+#Sydney a {
+    color: red;
+    text-decoration: none;
+    font-weight: bold;
+}
+#Sydney a:hover{
+    color: darkred;
+}
+#Richie {
+    grid-column: span 4;
+    margin-right: 12px;
+    float: right;
+}
+#Richie a{
+    color: red;
+    text-decoration: none;
+    font-weight: bold;
+}
+#Richie a:hover {
+    color: darkred
+}
+
+.gallery-item {
+    background-color: #ffffff;
+    text-align: center;
+}
+.gallery-item img{
+Width: 100%;
+}
+
+
