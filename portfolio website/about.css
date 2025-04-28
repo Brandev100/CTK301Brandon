@@ -1,0 +1,139 @@
+body { 
+  background-image: url("background_html2.png");
+}
+
+#wrapper {
+margin: 1em auto;
+padding: 0;
+width: 960px;
+border: 5px solid rgb(0, 0, 0);
+background-color: #3c2e67;
+display: grid;
+grid-template-columns: repeat(16, 1fr);
+}
+
+.profile_img {
+  border-radius: 20px; /* Sets roundness of image */
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 1%;
+  display: block;
+  width: 250px;
+}
+
+header {
+  font-family: sans-serif;
+  position: relative;
+  left: 350px;
+  bottom: 25px;
+  grid-column: span 12;
+  color: white;
+  margin: 1em;
+  text-align: 40px;
+  padding: 8px;
+}
+
+header h1 {
+  font-weight: normal; 
+}
+
+
+
+.other_text{
+  position: relative;
+  right: 237px;
+  top: 52px;
+  color: white;
+  font-family: Arial;
+  text-align: center;
+}
+
+.about_me{
+  line-height: 1.6;
+  position: relative;
+  bottom: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 870px;
+  height: 190px;
+  padding-top: 20px;
+  padding-left: 10px;
+  background-color: rgb(160, 168, 227);
+  font-size: 18px;
+  font-family: Arial;
+  border-radius: 40px;
+}
+
+
+
+nav li {
+    
+  /*top: 280px;
+  right: 732px;*/
+  position: relative;
+  right: 90px;
+  top: 0px;
+  display: inline-block;
+  block-size: 20px;
+  font-family: Arial;
+  background-color: rgb(169, 178, 239); 
+  border-radius: 10px;
+}
+
+.modify{
+  position: relative;
+  left: 190px;
+  bottom: 615px;
+}
+
+nav li a {
+  display: inline-block;
+  color: black;
+  block-size: 20px;
+  text-decoration: none;
+  padding: 10px;
+  background-color: rgb(162, 167, 208);
+  border-radius: 10px; 
+}
+
+nav li a:hover {
+  background-color: rgb(108, 110, 162);
+  font-style: italic;
+}
+
+main {
+  grid-column: span 30;
+  background-color: rgb(67, 3, 161);
+}
+
+.gif {
+  width: 270px; /* Sets width of image */
+  float: left; /* Makes it stay left of the text*/
+  position: relative;
+  padding-left: 30px;
+  bottom: 60px;
+  margin-right: 10px; /* puts space between the image and the text to the right of the image*/
+}
+
+
+
+footer {
+  text-align: center;
+  font-family: Verdana;
+  font-style: italic;
+  color: white;
+  background-color: rgb(55, 1, 99);
+  grid-column: span 16;
+  border-top: 5px solid black; 
+}
+
+.g_text {
+  font-family: Georgia;
+  text-align: justify;
+  font-weight: bold;
+  margin-right: 3em;
+}
+
+
+
+
