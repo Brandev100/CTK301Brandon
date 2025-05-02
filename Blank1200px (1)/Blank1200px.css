@@ -1,0 +1,231 @@
+body {
+  background-color: #999999;
+}
+
+#wrapper {
+  margin: 24px auto;
+  width: 1200px;
+  border: 1px solid rgb(0, 0, 0);
+  padding: 24px;
+  background-color: #3c2e67;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-column-gap: 24px;
+  grid-template-rows: 600px; /* This is for the dummy columns, replace or delete */
+}
+
+/* style for dummy columns, delete and replace with your own CSS */
+.dummycolumn {
+  background-color: rgba(255,0,0,.25);
+  grid-column: span 1;
+}
+
+.profile_img {
+  border-radius: 20px; /* Sets roundness of image */
+  margin-right: auto;
+  padding-left: 260px;
+  margin-top: 1%;
+  display: block;
+  width: 175px;
+}
+
+header {
+  font-family: sans-serif;
+  position: relative;
+  left: 350px;
+  bottom: 25px;
+  grid-column: span 12;
+  color: white;
+  margin: 1em;
+  text-align: 40px;
+  padding: 8px;
+}
+
+header h1 {
+  font-weight: normal; 
+}
+
+
+
+.other_text{
+  position: relative;
+  right: 237px;
+  top: 52px;
+  color: white;
+  font-family: Arial;
+  text-align: center;
+}
+
+h1{
+  color: white;
+  text-align: center;
+}
+
+.about_me{
+  position: relative;
+  bottom: 150px;
+  left: 450px;
+  width: 360px;
+  height: 60px;
+  padding-top: 10px;
+  padding-left: 10px;
+  background-color: rgb(160, 168, 227);
+  font-size: 17px;
+  font-family: Arial;
+  border-radius: 40px;
+}
+
+.about_me2{
+  position: absolute;
+  bottom: 470px;
+  left: 725px;
+  width: 100px;
+  height: 40px;
+  padding-top: 10px;
+  padding-left: 10px;
+  background-color: rgb(160, 168, 227);
+  font-size: 17px;
+  font-family: Arial;
+  border-radius: 40px;
+}
+
+
+
+nav li {
+    
+  /*top: 280px;
+  right: 732px;*/
+  position: relative;
+  left: 200px;
+  display: inline-block;
+  block-size: 20px;
+  font-family: Arial;
+  background-color: rgb(169, 178, 239); 
+  border-radius: 10px;
+}
+
+.modify{
+  position: relative;
+  left: 215px;
+  bottom: 425px;
+}
+
+.modify2{
+  position: relative;
+  left: 115px;
+  bottom: 90px;
+}
+
+.modify3{
+  position: relative;
+  left: 330px;
+  bottom: 90px;
+}
+
+.modify4{
+  position: relative;
+  left: 540px;
+  bottom: 90px;
+}
+
+nav li a {
+  display: inline-block;
+  color: black;
+  block-size: 20px;
+  text-decoration: none;
+  padding: 10px;
+  background-color: rgb(162, 167, 208);
+  border-radius: 10px; 
+}
+
+nav li a:hover {
+  background-color: rgb(108, 110, 162);
+  font-style: italic;
+}
+
+main {
+  grid-column: span 30;
+  background-color: rgb(67, 3, 161);
+}
+
+.gif {
+  width: 270px; /* Sets width of image */
+  float: left; /* Makes it stay left of the text*/
+  position: relative;
+  padding-left: 90px;
+  top: 20px;
+  margin-right: 10px; /* puts space between the image and the text to the right of the image*/
+}
+
+
+
+footer {
+  text-align: center;
+  font-family: Verdana;
+  font-style: italic;
+  color: white;
+  background-color: rgb(55, 1, 99);
+  grid-column: span 16;
+  border-top: 5px solid black; 
+}
+
+.g_text {
+  font-family: Georgia;
+  text-align: justify;
+  font-weight: bold;
+  margin-right: 3em;
+}
+
+.title{
+  position: absolute;
+  left: 250px;
+  bottom: 150px;
+  width: 250px;
+  text-align: center;
+  display: inline-block;
+  font-style: arial;
+  color: black;
+  block-size: 20px;
+  text-decoration: none;
+  padding: 10px;
+  background-color: rgb(212, 214, 235);
+  border-radius: 5px; 
+}
+
+.title2{
+  position: absolute;
+  left: 625px;
+  bottom: 150px;
+  width: 250px;
+  text-align: center;
+  display: inline-block;
+  font-style: arial;
+  color: black;
+  block-size: 20px;
+  text-decoration: none;
+  padding: 10px;
+  background-color: rgb(212, 214, 235);
+  border-radius: 5px; 
+}
+
+.title3{
+  position: absolute;
+  left: 995px;
+  bottom: 150px;
+  width: 250px;
+  text-align: center;
+  display: inline-block;
+  font-style: arial;
+  color: black;
+  block-size: 20px;
+  text-decoration: none;
+  padding: 10px;
+  background-color: rgb(212, 214, 235);
+  border-radius: 5px; 
+}
+
+.square{
+  width:50px;
+  height: 50px;
+  background-color: blue;
+}
