@@ -53,12 +53,12 @@ header h1 {
   bottom: 150px;
   left: 320px;
   width: 360px;
-  height: 60px;
+  height: 70px;
   padding-top: 10px;
   padding-left: 10px;
   background-color: rgb(160, 168, 227);
   font-size: 17px;
-  font-family: Arial;
+  font-family: Quicksand;
   border-radius: 40px;
 }
 
@@ -163,6 +163,7 @@ footer {
   padding: 10px;
   background-color: rgb(212, 214, 235);
   border-radius: 5px; 
+  box-shadow: 10px 10px;
 }
 
 .title2{
@@ -178,7 +179,8 @@ footer {
   text-decoration: none;
   padding: 10px;
   background-color: rgb(212, 214, 235);
-  border-radius: 5px; 
+  border-radius: 5px;
+  box-shadow: 10px 10px; 
 }
 
 .title3{
@@ -194,8 +196,11 @@ footer {
   text-decoration: none;
   padding: 10px;
   background-color: rgb(212, 214, 235);
-  border-radius: 5px; 
+  border-radius: 5px;
+  box-shadow: 10px 10px; 
 }
+
+
 
 
 
