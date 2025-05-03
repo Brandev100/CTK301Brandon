@@ -27,7 +27,7 @@ header {
   left: 350px;
   bottom: 25px;
   grid-column: span 12;
-  color: white;
+  color: rgb(255, 255, 255);
   margin: 1em;
   text-align: 40px;
   padding: 8px;
