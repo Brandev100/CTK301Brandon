@@ -15,10 +15,10 @@ grid-template-columns: repeat(16, 1fr);
 .profile_img {
   border-radius: 20px; /* Sets roundness of image */
   margin-right: auto;
-  padding-left: 120px;
+  margin-left: auto;
   margin-top: 1%;
   display: block;
-  width: 175px;
+  width: 250px;
 }
 
 header {
@@ -31,10 +31,6 @@ header {
   margin: 1em;
   text-align: 40px;
   padding: 8px;
-}
-
-.art_push {
-  left: 500px;
 }
 
 header h1 {
@@ -53,16 +49,18 @@ header h1 {
 }
 
 .about_me{
+  line-height: 1.6;
   position: relative;
-  bottom: 150px;
-  left: 320px;
-  width: 370px;
-  height: 70px;
-  padding-top: 10px;
+  bottom: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 870px;
+  height: 190px;
+  padding-top: 20px;
   padding-left: 10px;
   background-color: rgb(160, 168, 227);
-  font-size: 17px;
-  font-family: Quicksand;
+  font-size: 18px;
+  font-family: Arial;
   border-radius: 40px;
 }
 
@@ -73,7 +71,8 @@ nav li {
   /*top: 280px;
   right: 732px;*/
   position: relative;
-  left: 200px;
+  left: 550px;
+  top: 0px;
   display: inline-block;
   block-size: 20px;
   font-family: Arial;
@@ -81,28 +80,12 @@ nav li {
   border-radius: 10px;
 }
 
+
+
 .modify{
   position: relative;
-  left: 215px;
-  bottom: 425px;
-}
-
-.modify2{
-  position: relative;
-  left: 115px;
-  bottom: 90px;
-}
-
-.modify3{
-  position: relative;
-  left: 330px;
-  bottom: 90px;
-}
-
-.modify4{
-  position: relative;
-  left: 540px;
-  bottom: 90px;
+  left: 190px;
+  bottom: 615px;
 }
 
 nav li a {
@@ -153,59 +136,39 @@ footer {
   margin-right: 3em;
 }
 
-.title{
-  position: relative;
-  left: 30px;
-  bottom: 70px;
-  width: 250px;
+.icons{
   text-align: center;
-  display: inline-block;
-  font-style: arial;
-  color: black;
-  block-size: 20px;
+}
+.icons a{
   text-decoration: none;
-  padding: 10px;
-  background-color: rgb(212, 214, 235);
-  border-radius: 5px; 
-  box-shadow: 10px 10px;
+  margin-right: 20px;
+}
+.fa-brands.fa-twitter.fa-5x{
+  color: hsl(188, 100%, 50%);
+}
+.fa-brands.fa-twitter.fa-5x:hover{
+  color: hsl(188, 100%, 60%);
 }
 
-.title2{
-  position: relative;
-  left: 68px;
-  bottom: 70px;
-  width: 250px;
-  text-align: center;
-  display: inline-block;
-  font-style: arial;
-  color: black;
-  block-size: 20px;
-  text-decoration: none;
-  padding: 10px;
-  background-color: rgb(212, 214, 235);
-  border-radius: 5px;
-  box-shadow: 10px 10px; 
+.icons{
+text-align: center;
 }
-
-.title3{
-  position: relative;
-  left: 102px;
-  bottom: 70px;
-  width: 250px;
-  text-align: center;
-  display: inline-block;
-  font-style: arial;
-  color: black;
-  block-size: 20px;
-  text-decoration: none;
-  padding: 10px;
-  background-color: rgb(212, 214, 235);
-  border-radius: 5px;
-  box-shadow: 10px 10px; 
+.icons a{
+text-decoration: none;
+margin-right: 200px;
 }
-
-
-
+.fa-solid.fa-house.fa-5x{
+color: hsl(0, 0%, 66%);
+}
+.fa-solid.fa-house.fa-5x:hover{
+color: hsl(0, 0%, 76%);
+}
+.fa-brands.fa-twitter.fa-5x{
+color: hsl(188, 100%, 50%);
+}
+.fa-brands.fa-twitter.fa-5x:hover{
+color: hsl(188, 100%, 60%);
+}
 
 
 

@@ -27,7 +27,7 @@ header {
   left: 350px;
   bottom: 25px;
   grid-column: span 12;
-  color: white;
+  color: rgb(255, 255, 255);
   margin: 1em;
   text-align: 40px;
   padding: 8px;
@@ -71,7 +71,7 @@ nav li {
   /*top: 280px;
   right: 732px;*/
   position: relative;
-  right: 90px;
+  left: 260px;
   top: 0px;
   display: inline-block;
   block-size: 20px;
@@ -79,6 +79,8 @@ nav li {
   background-color: rgb(169, 178, 239); 
   border-radius: 10px;
 }
+
+
 
 .modify{
   position: relative;
