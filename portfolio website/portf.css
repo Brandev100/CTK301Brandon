@@ -73,7 +73,7 @@ nav li {
   /*top: 280px;
   right: 732px;*/
   position: relative;
-  left: 200px;
+  left: 160px;
   display: inline-block;
   block-size: 20px;
   font-family: Arial;
@@ -89,20 +89,26 @@ nav li {
 
 .modify2{
   position: relative;
-  left: 115px;
+  left: 75px;
   bottom: 90px;
 }
 
 .modify3{
   position: relative;
-  left: 330px;
+  left: 290px;
   bottom: 90px;
 }
 
 .modify4{
   position: relative;
-  left: 540px;
+  left: 500px;
   bottom: 90px;
+}
+
+.modify5{
+  position: relative;
+  left: 239px;
+  bottom: 85px;
 }
 
 nav li a {
